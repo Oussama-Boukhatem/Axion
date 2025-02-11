@@ -1,0 +1,22 @@
+body {
+    background-color: #f4f4f4 !important;
+}
+
+nav.navbar {
+    background-color: #2C3E50 !important;
+}
+
+img {
+    height: 50px;
+    width: auto;
+}
+
+.btn {
+    min-width: 120px; /* Adjust as needed */
+    text-align: center;
+    background-color: #D4AF37 !important;
+    color: #2C3E50 !important;
+    border-radius: 100px !important;
+    margin: 5px;
+    font-family: "Lato", serif !important;
+}
