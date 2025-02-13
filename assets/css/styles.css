@@ -33,6 +33,11 @@ img {
   margin: 0 auto;
 }
 
+.account-btn {
+    font-weight: 600 !important;
+    margin: auto !important;
+}
+
 h1 {
   color: #2c3e50 !important;
   font-family: "Merriweather", serif;
@@ -84,3 +89,16 @@ p {
     color: #333333 !important;
     font-family: "Source Sans 3", serif;
 }
+
+.card {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.card-title {
+    color: black !important;
+    font-family: "Source Sans 3", serif;
+}
+
+
