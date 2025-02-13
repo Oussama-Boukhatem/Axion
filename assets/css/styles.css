@@ -34,14 +34,19 @@ img {
 }
 
 .account-btn {
-    font-weight: 600 !important;
-    margin: auto !important;
+  font-weight: 600 !important;
+  margin: auto !important;
 }
 
 h1 {
   color: #2c3e50 !important;
   font-family: "Merriweather", serif;
   margin-top: 1000px;
+}
+
+.product-header {
+  text-align: center;
+  margin-top: 20px;
 }
 
 p {
@@ -60,7 +65,8 @@ p {
 }
 
 .home-container,
-.about-container, .contact-container {
+.about-container,
+.contact-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -69,7 +75,8 @@ p {
 }
 
 .home-content,
-.about-content, .contact-content {
+.about-content,
+.contact-content {
   flex: 1;
   max-width: 50%;
 }
@@ -86,19 +93,51 @@ p {
 }
 
 .form-label {
-    color: #333333 !important;
-    font-family: "Source Sans 3", serif;
+  color: #333333 !important;
+  font-family: "Source Sans 3", serif;
 }
 
 .card {
-    max-width: 400px;
-    margin: auto;
-    margin-top: 50px;
+  max-width: 400px;
+  margin: auto;
+  margin-top: 50px;
 }
 
 .card-title {
-    color: black !important;
-    font-family: "Source Sans 3", serif;
+  color: black !important;
+  font-family: "Source Sans 3", serif;
 }
 
+.grid-item {
+  padding: 20px;
+  text-align: center;
+}
 
+.item-description {
+  color: #333333 !important;
+  font-family: "Source Sans 3", serif;
+}
+
+.rating {
+  width: 90px;
+  height: auto;
+}
+
+.item {
+  width: 200px;
+  height: auto;
+}
+
+.product-page {
+  color: #d4af37;
+  background-color: #333333;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  margin: 8px;
+}
+
+.product-page-btn {
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
