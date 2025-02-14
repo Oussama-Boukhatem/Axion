@@ -18,7 +18,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -73,6 +73,86 @@
         </div>
       </div>
     </nav>
+    <div class="cart-container">
+      <div class="cart-header">
+        <div>Product</div>
+        <div>Quantity</div>
+        <div>Subtotal</div>
+      </div>
+
+      <div class="cart-item">
+        <div class="product-info">
+          <img
+            src="/api/placeholder/100/100"
+            alt="Green Long Sleeve Shirt"
+            class="product-image"
+          />
+          <div class="product-details">
+            <div>Item</div>
+            <div>Price: $0.00</div>
+            <button class="remove-btn">Remove</button>
+          </div>
+        </div>
+        <div>
+          <input type="number" class="quantity-input" value="0" min="0" />
+        </div>
+        <div class="price">$0.00</div>
+      </div>
+
+      <div class="cart-item">
+        <div class="product-info">
+          <img
+            src="/api/placeholder/100/100"
+            alt="Red Long Sleeve Shirt"
+            class="product-image"
+          />
+          <div class="product-details">
+            <div>Item</div>
+            <div>Price: $0.00</div>
+            <button class="remove-btn">Remove</button>
+          </div>
+        </div>
+        <div>
+          <input type="number" class="quantity-input" value="0" min="0" />
+        </div>
+        <div class="price">$0.00</div>
+      </div>
+
+      <div class="cart-item">
+        <div class="product-info">
+          <img
+            src="/api/placeholder/100/100"
+            alt="Navy Long Sleeve Shirt"
+            class="product-image"
+          />
+          <div class="product-details">
+            <div>Item</div>
+            <div>Price: $0.00</div>
+            <button class="remove-btn">Remove</button>
+          </div>
+        </div>
+        <div>
+          <input type="number" class="quantity-input" value="0" min="0" />
+        </div>
+        <div class="price">$0.00</div>
+      </div>
+
+      <div class="cart-summary">
+        <div class="summary-row">
+          <div>Subtotal</div>
+          <div class="price">$0.00</div>
+        </div>
+        <div class="summary-row">
+          <div>Tax</div>
+          <div class="price">$0.00</div>
+        </div>
+        <div class="summary-row">
+          <div>Total</div>
+          <div class="price">$0.00</div>
+        </div>
+        <a href="#" class="checkout-btn">Checkout →</a>
+      </div>
+    </div>
     <script src="assets/js/main.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

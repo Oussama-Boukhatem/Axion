@@ -14,7 +14,7 @@ img {
 .btn {
   min-width: 120px;
   text-align: center;
-  background-color: #d4af37 !important;
+  background-color: #f1c40f !important;
   color: #2c3e50 !important;
   border-radius: 100px !important;
   margin: 5px;
@@ -23,7 +23,7 @@ img {
 
 .submit-btn {
   background-color: #2c3e50;
-  color: #d4af37;
+  color: #f1c40f;
   border-radius: 100px;
   width: 200px;
   height: 40px;
@@ -55,7 +55,7 @@ p {
 }
 
 .navigate {
-  color: #d4af37;
+  color: #f1c40f;
   background-color: #2c3e50;
   border-radius: 100px;
   height: 40px;
@@ -129,7 +129,7 @@ p {
 }
 
 .product-page {
-  color: #d4af37;
+  color: #f1c40f;
   background-color: #333333;
   width: 40px;
   height: 40px;
@@ -142,4 +142,112 @@ p {
 .product-page-btn {
   margin-left: 40px;
   margin-bottom: 40px;
+}
+
+/* Cart Page Features */
+
+.cart-container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+  font-family: Arial, sans-serif;
+}
+
+.cart-header {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  background-color: #2C3E50;
+  color: #f1c40f;
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-family: "Montserrat", serif;
+}
+
+.cart-item {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.product-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.product-image {
+  width: 100px;
+  height: auto;
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: #333333;
+  font-family: "Source Sans 3", serif;
+}
+
+.remove-btn {
+  color: #FE1414;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.quantity-input {
+  width: 60px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-align: center;
+  font-family: "Source Sans 3", serif;
+}
+
+.price {
+  color: #333333;
+  font-family: "Source Sans 3", serif;
+}
+
+.cart-summary {
+  margin-top: 30px;
+  margin-left: auto;
+  width: 300px;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+  color: #333333;
+  font-family: "Source Sans 3", serif;
+}
+
+.checkout-btn {
+  display: block;
+  width: 100%;
+  background-color: #2C3E50;
+  color: #f1c40f;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Montserrat", serif;
+  font-weight: 600;
+}
+
+.checkout-btn:hover {
+  background-color: #34495e;
 }
