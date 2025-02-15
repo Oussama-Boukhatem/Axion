@@ -159,8 +159,8 @@ p {
 }
 
 .item {
-  width: 200px;
-  height: auto;
+  width: auto;
+  height: 200px;
 }
 
 .product-page {
@@ -302,4 +302,36 @@ p {
 .footer-content {
   color: white;
   font-family: "Lato", serif;
+}
+
+/* Product Details Features */
+
+.product-details-img {
+  width: 270px;
+  height: auto;
+  display:block;
+  margin:auto;
+}
+
+.add-to-cart-btn {
+  background-color: #2c3e50;
+  color: #f1c40f;
+  border-radius: 100px;
+  width: 130px;
+  height: 40px;
+  font-weight: 600;
+  font-family: "Montserrat", serif;
+  margin-left: 15px;
+}
+
+.product-details-description {
+  padding: 70px !important;
+}
+
+.product-details-settings {
+  padding: 20px !important;
+}
+
+.bold-description {
+  font-weight: 600;
 }
