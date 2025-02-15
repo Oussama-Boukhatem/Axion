@@ -25,7 +25,7 @@ img {
   background-color: #2c3e50;
   color: #f1c40f;
   border-radius: 100px;
-  width: 200px;
+  width: 100px;
   height: 40px;
   font-weight: 600;
   font-family: "Montserrat", serif;
@@ -42,6 +42,13 @@ h1 {
   color: #2c3e50 !important;
   font-family: "Merriweather", serif;
   margin-top: 1000px;
+}
+
+.contact-header {
+  margin-top: 50px;
+  text-align: center;
+  font-family: "Merriweather", serif !important;
+  color: #2C3E50 !important;
 }
 
 .product-header {
@@ -79,6 +86,26 @@ p {
 .contact-content {
   flex: 1;
   max-width: 50%;
+}
+
+/* When the screen is condensed to phone size */
+@media (max-width: 768px) {
+  .home-container,
+  .about-container,
+  .contact-container {
+    flex-direction: column; /* Stack items vertically */
+  }
+
+  .home-content,
+  .about-content,
+  .contact-content {
+    width: 100%; /* Make it take full width */
+    text-align: center; /* Center text */
+  }
+
+  .home-image {
+    display: none; /* Hide the image */
+  }
 }
 
 .home-image {
@@ -250,4 +277,21 @@ p {
 
 .checkout-btn:hover {
   background-color: #34495e;
+}
+
+/* Footer Features */
+
+.footer {
+  background-color: #2c3e50;
+  padding: 50px;
+}
+
+.contact-cred {
+  color: white !important;
+  font-family: "Lato", serif;
+}
+
+.footer-content {
+  color: white;
+  font-family: "Lato", serif;
 }
